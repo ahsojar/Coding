@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(173, 204, 230);
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  text-align: center;
+  color:rgb(255, 0, 0);
+font-family: 'Exo 2', sans-serif;
+}
+.imageoption {
+  height:80px;  
+  padding: 20px;
+}
