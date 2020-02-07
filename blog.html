@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>newblog</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  </head>
-  <body>
- 
-    <div displayblog="displayblog">
-      <div class ="inputlabel">type blog entry here</div>
-      <textarea id="inputlabel" rows="4" cols="50">
-        
-</textarea>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>newblog</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+</head>
+
+<body>
+
+	<div class ="displayblog">
+		<div class="inputlabel">type blog entry here</div>
+		<textarea id="inputlabel" rows="4" cols="50"></textarea>
       
       <div class ="inputlabel">click photo</div>
-      <img class ="imageoption" src="warriors.png" height="80">
-      <img class = "imageoption"src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYVkZ7osK4YgeAAA4C3x77PW3pQBi1Er1UGXr41nep7Ies3I5t">
+      <img id="img1" class ="imageoption" src="https://i0.wp.com/www.preda.org/wp-content/uploads/2016/02/1454221348_2.jpg?fit=600%2C583&ssl=1" height="80">
+      <img id="img2" class = "imageoption"src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNQ7By2V7uAk6oJb1m_ftuJWGIMPnZSje42WlsBh_pwSldIZr4">
       <button class="submitButton">Submit!</button>
+      <img id="img3" class ="imageoption" src="https://upload.wikimedia.org/wikipedia/en/c/c2/ZSW_n9UC_400x400.jpg">
+      <img id="img4" class="imageoption"src="https://armoryoftherevolution.files.wordpress.com/2016/12/ar-revolution.jpg">
+      <img id="img5" class="imageoption"src="https://res.cloudinary.com/teepublic/image/private/s--EeFMUbSJ--/c_crop,x_10,y_10/c_fit,w_1109/c_crop,g_north_west,h_1050,w_1260,x_-76,y_-80/co_rgb:000000,e_colorize,u_Misc:One%20Pixel%20Gray/c_scale,g_north_west,h_1050,w_1260/fl_layer_apply,g_north_west,x_-76,y_-80/bo_157px_solid_white/e_overlay,fl_layer_apply,h_1050,l_Misc:Art%20Print%20Bumpmap,w_1260/e_shadow,x_6,y_6/c_limit,h_1134,w_1134/c_lpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1524424836/production/designs/2617613_0.jpg">
     </div>
     <div class="displayPage">
-      <img src="https://m.media-amazon.com/images/M/MV5BZTZmMzY2MjktYTdlNy00NjZhLWFjOTYtMDEyYmI4YzBmMmJiXkEyXkFqcGdeQXVyMzUwMTgwMw@@._V1_UX182_CR0,0,182,268_AL_.jpg">
-      <button>Share</button>
+      <img class="posterImage" src="">
+      <button class='shareButton'>Share</button>
       <button onclick="printFunction()">Print</button>
       
     <p class="description">Peanut butter lastes like peanuts but mashed</p>
