@@ -3,11 +3,16 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 h1 {
-  text-align: center;
-  color:rgb(255, 0, 0);
-font-family: 'Exo 2', sans-serif;
+ text-align: center;
+color:rgb(47, 0, 255);
+font-family: 'Shadows Into Light', cursive;
+font-size: 45px;
 }
 .imageoption {
   height:80px;  
   padding: 20px;
+}
+
+.showBorder{
+border: 2px solid black;
 }
