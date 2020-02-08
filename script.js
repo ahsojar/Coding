@@ -1,12 +1,13 @@
 function printFunction() {
-  window.print();
+  $(".displayPage").print();
 }
 
+  $(".displayPage").hide()
 
 $('.submitButton').click(function(){
- 
-
-  $(".displayBlog").hide()
+  var text=$('#description').val()
+  $('.description').text(text)
+  $(".displayblog").hide()
   $(".displayPage").show()
 });
 
@@ -14,7 +15,7 @@ $('.submitButton').click(function(){
 $('#img1').click(function(){
   
  var imgSrc = $('#img1').attr('src')
- $('.imageOption').removeClass('showBorder')
+ $('.imageoption').removeClass('showBorder')
  $('#img1').addClass('showBorder')
  $('.posterImage').attr('src', imgSrc)
  // var thing = $('.descriptionText').val();
@@ -24,8 +25,8 @@ $('#img1').click(function(){
 $('#img2').click(function(){
   
  var imgSrc = $('#img1').attr('src')
- $('.imageOption').removeClass('showBorder')
- $('#img1').addClass('showBorder')
+ $('.imageoption').removeClass('showBorder')
+ $('#img2').addClass('showBorder')
  $('.posterImage').attr('src', imgSrc)
  // var thing = $('.descriptionText').val();
  // $('.description').html(thing);
@@ -34,8 +35,8 @@ $('#img2').click(function(){
 $('#img3').click(function(){
   
  var imgSrc = $('#img1').attr('src')
- $('.imageOption').removeClass('showBorder')
- $('#img1').addClass('showBorder')
+ $('.imageoption').removeClass('showBorder')
+ $('#img3').addClass('showBorder')
  $('.posterImage').attr('src', imgSrc)
  // var thing = $('.descriptionText').val();
  // $('.description').html(thing);
@@ -44,8 +45,8 @@ $('#img3').click(function(){
 $('#img4').click(function(){
   
  var imgSrc = $('#img1').attr('src')
- $('.imageOption').removeClass('showBorder')
- $('#img1').addClass('showBorder')
+ $('.imageoption').removeClass('showBorder')
+ $('#img4').addClass('showBorder')
  $('.posterImage').attr('src', imgSrc)
  // var thing = $('.descriptionText').val();
  // $('.description').html(thing);
